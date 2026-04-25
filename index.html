@@ -3,569 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red Power Electric - Professional Electrical Services in Florida</title>
-    <meta name="description" content="Red Power Electric - Trusted electrical services company in Miramar, FL. Licensed experts in installations, repairs, panel upgrades, and maintenance. Family-owned since 2014. Call now!">
-    <meta name="keywords" content="electrician, electrical services, electrical repair, panel upgrade, lighting installation, Miramar Florida, licensed electrician, commercial electrical, residential electrician">
+    <title>Red Power Electric - Licensed Electrician in Miramar, FL</title>
+    <meta name="description" content="Red Power Electric - Trusted family-owned electrical company serving Miramar, FL since 2014. Licensed & insured electricians. Call 786-445-3017 for fast, reliable service.">
+    <meta name="keywords" content="electrician Miramar FL, electrical services, panel upgrade, lighting installation, licensed electrician">
     <meta name="author" content="Red Power Electric">
-    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://redpowerelectric.com">
-    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23E53935'/><text y='65' x='50' text-anchor='middle' font-size='45' fill='white'>⚡</text></svg>">
     
     <!-- Open Graph -->
     <meta property="og:title" content="Red Power Electric - Professional Electrical Services">
-    <meta property="og:description" content="Your trusted electrical partner in Florida. Quality service, licensed professionals, and satisfaction guaranteed. Call 786-445-3017">
+    <meta property="og:description" content="Your trusted electrical company in Florida since 2014. Licensed, insured, and reliable.">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1621905251189-fc01530e6a69?w=1200">
     
-    <!-- Schema Markup for Local Business -->
+    <!-- Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Electrician",
         "name": "Red Power Electric",
-        "description": "Professional electrical services company serving Florida and the United States",
         "telephone": "+1-786-445-3017",
         "email": "redpowerelectric2@gmail.com",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "5082 SW 164th AVE",
-            "addressLocality": "Miramar",
-            "addressRegion": "FL",
-            "postalCode": "33027",
-            "addressCountry": "US"
-        },
-        "areaServed": "United States",
-        "founder": {
-            "@type": "Person",
-            "name": "Aciel Hernández Valdés"
-        },
-        "openingHours": "Mo-Fr 08:00-18:00",
-        "priceRange": "$$",
-        "image": "logo.svg"
+        "address": {"@type": "PostalAddress", "streetAddress": "5082 SW 164th AVE", "addressLocality": "Miramar", "addressRegion": "FL", "postalCode": "33027"},
+        "founder": {"@type": "Person", "name": "Aciel Hernández Valdés"},
+        "openingHours": "Mo-Fr 08:00-18:00"
     }
     </script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
                 <span class="logo-icon"><i class="fas fa-bolt"></i></span>
-                <span class="logo-text">Red<span>Power</span> Electric</span>
+                <span class="logo-text">Red<span>Power</span></span>
             </a>
             
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
             
-            <div class="nav-actions">
-                <a href="tel:+17864453017" class="btn btn-phone">
+            <div class="header-actions">
+                <a href="tel:+17864453017" class="phone-link">
                     <i class="fas fa-phone-alt"></i>
                     <span>786-445-3017</span>
                 </a>
-                <a href="#contact" class="btn btn-cta">
-                    Get Free Quote
-                </a>
-                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <a href="#contact" class="btn-quote">Get Free Quote</a>
             </div>
+            
+            <button class="mobile-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home" style="background-image: url('https://images.unsplash.com/photo-1621905251189-08b45f6a7e4c?w=1920&q=80');">
-        <div class="hero-overlay"></div>
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
         <div class="hero-content">
             <div class="hero-badge">
                 <i class="fas fa-check-circle"></i>
                 <span>Licensed & Insured</span>
-                <span class="badge-divider">|</span>
-                <i class="fas fa-clock"></i>
+                <span class="divider">•</span>
                 <span>Since 2014</span>
             </div>
-            <h1 class="hero-title">
-                Trusted Electrical<br>
-                <span class="highlight">Experts in Florida</span>
-            </h1>
-            <p class="hero-description">
-                Professional electrical services for homes and businesses. 
-                Safe, reliable, and affordable solutions from licensed electricians you can trust.
-            </p>
-            <div class="hero-actions">
-                <a href="#contact" class="btn btn-primary btn-lg">
-                    <i class="fas fa-bolt"></i>
-                    Request Free Quote
-                </a>
-                <a href="tel:+17864453017" class="btn btn-outline btn-lg">
-                    <i class="fas fa-phone-alt"></i>
-                    Call Now
-                </a>
+            <h1 class="hero-title">Your Trusted<br><span class="highlight">Electrician</span> in Florida</h1>
+            <p class="hero-text">Professional electrical services for homes and businesses. Fast, reliable, and affordable. Family-owned and operated.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-bolt"></i> Get Free Quote</a>
+                <a href="tel:+17864453017" class="btn btn-outline"><i class="fas fa-phone-alt"></i> Call Now</a>
             </div>
             <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">500+</span>
-                    <span class="stat-label">Projects Completed</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">10+</span>
-                    <span class="stat-label">Years Experience</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Satisfaction Guaranteed</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">Emergency Service</span>
-                </div>
+                <div class="stat"><strong>500+</strong><span>Jobs Done</span></div>
+                <div class="stat"><strong>10+</strong><span>Years</span></div>
+                <div class="stat"><strong>100%</strong><span>Satisfaction</span></div>
             </div>
         </div>
     </section>
 
-    <!-- Trust Badges -->
-    <section class="trust-badges">
-        <div class="container">
-            <div class="badges-grid">
-                <div class="badge-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <div>
-                        <strong>Licensed & Insured</strong>
-                        <span>Fully Certified</span>
-                    </div>
-                </div>
-                <div class="badge-item">
-                    <i class="fas fa-award"></i>
-                    <div>
-                        <strong>10+ Years</strong>
-                        <span>Experience</span>
-                    </div>
-                </div>
-                <div class="badge-item">
-                    <i class="fas fa-users"></i>
-                    <div>
-                        <strong>Family Owned</strong>
-                        <span>Since 2014</span>
-                    </div>
-                </div>
-                <div class="badge-item">
-                    <i class="fas fa-shipping-fast"></i>
-                    <div>
-                        <strong>Fast Response</strong>
-                        <span>Same Day Service</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
+    <!-- Services -->
     <section class="services" id="services">
-        <div class="section-container">
+        <div class="container">
             <div class="section-header">
-                <span class="section-tag">Our Services</span>
-                <h2 class="section-title">Complete Electrical<br>Solutions for You</h2>
-                <p class="section-description">
-                    From simple repairs to complex installations, we handle all your electrical needs 
-                    with professionalism and safety. No job too big or small.
-                </p>
+                <span class="tag">Our Services</span>
+                <h2>Electrical Services<br>You Can Trust</h2>
+                <p>From simple repairs to complex installations, we handle all your electrical needs with professionalism and safety.</p>
             </div>
             
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cdd0?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-plug"></i>
-                        </div>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-plug"></i></div>
                     <h3>Electrical Installations</h3>
-                    <p>Complete wiring for new constructions, renovations, and upgrades. Panel installations, circuit breakers, and full system setup.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <p>New wiring, panel upgrades, and complete system installations for homes and businesses.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1621905251189-fc01530e6a69?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                    </div>
-                    <h3>Electrical Repairs</h3>
-                    <p>Fast and reliable repairs for all electrical issues. Faulty wiring, circuit problems, outlet repairs, and emergency fixes.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Repairs & Troubleshooting</h3>
+                    <p>Fast diagnosis and repair of all electrical issues. Same-day service available.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1565183928294-7063f23f1b1e?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-lightning-bolt"></i></div>
                     <h3>Panel Upgrades</h3>
-                    <p>Upgrade your electrical panel to handle modern power demands. Safe, code-compliant, and professional installation.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <p>Upgrade your electrical panel to meet modern power demands safely.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1563184573-a9c4d7946846?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
                     <h3>Lighting Solutions</h3>
-                    <p>LED lighting, smart lighting, outdoor lights, and decorative lighting. Transform your space with modern lighting.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <p>LED lighting, smart lights, and decorative installations.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-home"></i>
-                        </div>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
                     <h3>Residential</h3>
-                    <p>Complete electrical services for homes. From outlet installation to full rewiring. Safe solutions for your family.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <p>Complete electrical services for your home. Safe solutions for your family.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c8?w=600&q=80');">
-                        <div class="service-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                    </div>
+                    <div class="service-icon"><i class="fas fa-building"></i></div>
                     <h3>Commercial</h3>
-                    <p>Electrical solutions for businesses. Industrial wiring, commercial maintenance, and restaurant services.</p>
-                    <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    <p>Electrical solutions for businesses, restaurants, and offices.</p>
+                    <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section class="about" id="about">
-        <div class="section-container">
-            <div class="about-content">
-                <div class="about-images">
-                    <div class="about-main-image" style="background-image: url('https://images.unsplash.com/photo-1581092160562-40aa08f78837?w=800&q=80');"></div>
-                    <div class="about-card">
-                        <div class="about-card-inner">
-                            <span class="about-years">10+</span>
-                            <span class="about-label">Years Serving Florida</span>
-                        </div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="tag">About Us</span>
+                    <h2>Family-Owned<br>Since 2014</h2>
+                    <p class="lead">Red Power Electric is a family-owned and operated electrical company serving Florida with pride and dedication.</p>
+                    <p>Under the leadership of <strong>Aciel Hernández Valdés</strong>, we've built a reputation for quality workmanship and customer satisfaction. Our team of licensed electricians is committed to delivering safe, reliable, and affordable electrical solutions.</p>
+                    
+                    <div class="features">
+                        <div class="feature"><i class="fas fa-check-circle"></i> Licensed & Insured</div>
+                        <div class="feature"><i class="fas fa-check-circle"></i> Upfront Pricing</div>
+                        <div class="feature"><i class="fas fa-check-circle"></i> Same-Day Service</div>
+                        <div class="feature"><i class="fas fa-check-circle"></i> Satisfaction Guaranteed</div>
                     </div>
+                    
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Us</a>
                 </div>
-                
-                <div class="about-info">
-                    <span class="section-tag">About Red Power Electric</span>
-                    <h2 class="section-title">Your Trusted<br>Electrical Partner</h2>
-                    <p class="about-lead">
-                        Family-owned and operated since 2014, Red Power Electric has been serving 
-                        Florida with pride and dedication. Under the leadership of <strong>Aciel Hernández Valdés</strong>, 
-                        we've built a reputation for quality workmanship and customer satisfaction.
-                    </p>
-                    
-                    <p class="about-description">
-                        Our team of licensed electricians is committed to delivering safe, reliable, 
-                        and affordable electrical solutions. We treat every home and business as if it were 
-                        our own, ensuring the highest standards of safety and professionalism.
-                    </p>
-                    
-                    <div class="about-features">
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Licensed & Insured Electricians</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Upfront Transparent Pricing</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Clean & Professional Work</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Satisfaction Guarantee</span>
-                        </div>
-                    </div>
-                    
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-user"></i>
-                        Meet Our Team
-                    </a>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="card-years">10+</div>
+                    <div class="card-text">Years Serving<br>Florida</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="why-us">
-        <div class="section-container">
-            <div class="section-header centered">
-                <span class="section-tag">Why Choose Red Power Electric?</span>
-                <h2 class="section-title">The Difference<br>That Matters</h2>
+    <!-- Why Choose -->
+    <section class="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="tag">Why Choose Us</span>
+                <h2>The Red Power<br>Difference</h2>
             </div>
             
             <div class="why-grid">
                 <div class="why-card">
-                    <div class="why-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>Fast Response Times</h3>
-                    <p>We understand electrical issues can't wait. Same-day service and 24/7 emergency availability.</p>
+                    <i class="fas fa-clock"></i>
+                    <h3>Fast Response</h3>
+                    <p>Same-day service and 24/7 emergency availability when you need us most.</p>
                 </div>
-                
                 <div class="why-card">
-                    <div class="why-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Fair Transparent Pricing</h3>
-                    <p>No hidden fees. We provide upfront quotes and competitive pricing for quality work.</p>
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Fair Pricing</h3>
+                    <p>No hidden fees. Upfront quotes and competitive pricing every time.</p>
                 </div>
-                
                 <div class="why-card">
-                    <div class="why-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>Quality Craftsmanship</h3>
-                    <p>Every job is done right the first time. We take pride in our work and guarantee it.</p>
+                    <i class="fas fa-award"></i>
+                    <h3>Quality Work</h3>
+                    <p>Every job done right the first time. We guarantee our work.</p>
                 </div>
-                
                 <div class="why-card">
-                    <div class="why-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Customer-Focused</h3>
-                    <p>Your satisfaction is our priority. We're not happy until you're happy.</p>
+                    <i class="fas fa-heart"></i>
+                    <h3>Customer Focused</h3>
+                    <p>Your satisfaction is our priority. We're not done until you're happy.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Gallery -->
-    <section class="projects" id="projects">
-        <div class="section-container">
-            <div class="section-header centered">
-                <span class="section-tag">Our Work</span>
-                <h2 class="section-title">Recent Projects</h2>
-            </div>
-            
-            <div class="projects-grid">
-                <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cdd0?w=600&q=80');">
-                    <div class="project-overlay">
-                        <h4>Panel Installation</h4>
-                        <p>Residential</p>
-                    </div>
-                </div>
-                <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1565183928294-7063f23f1b1e?w=600&q=80');">
-                    <div class="project-overlay">
-                        <h4>Lighting Setup</h4>
-                        <p>Commercial</p>
-                    </div>
-                </div>
-                <div class="project-card" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80');">
-                    <div class="project-overlay">
-                        <h4>Full Rewiring</h4>
-                        <p>Residential</p>
-                    </div>
-                </div>
-                <div class="project-card project-large" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c8?w=600&q=80');">
-                    <div class="project-overlay">
-                        <h4>Commercial Installation</h4>
-                        <p>Business</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="projects-cta">
-                <p>Want to see more of our work?</p>
-                <a href="#contact" class="btn btn-outline">Request Consultation</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="section-container">
-            <div class="section-header centered">
-                <span class="section-tag">Testimonials</span>
-                <h2 class="section-title">What Our Clients Say</h2>
-            </div>
-            
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Red Power Electric did an amazing job on our panel upgrade. Professional, clean, and finished on time. Highly recommend!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><i class="fas fa-user"></i></div>
-                        <div>
-                            <strong>John D.</strong>
-                            <span>Miramar, FL</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"Fixed our electrical issue same day! Great service and fair price. These guys really know what they're doing."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><i class="fas fa-user"></i></div>
-                        <div>
-                            <strong>Maria S.</strong>
-                            <span>Hollywood, FL</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-text">"We've used them for our restaurant for years. Always professional, reliable, and reasonably priced. Best electricians in town!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar"><i class="fas fa-user"></i></div>
-                        <div>
-                            <strong>Carlos R.</strong>
-                            <span>Business Owner</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="section-container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <span class="section-tag">Contact Us</span>
-                    <h2 class="section-title">Let's Discuss<br>Your Project</h2>
-                    <p class="contact-description">
-                        Ready to get your electrical work done right? Contact us today for a free consultation and quote.
-                    </p>
+    <!-- CTA -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-grid">
+                <div class="cta-info">
+                    <span class="tag">Contact Us</span>
+                    <h2>Ready to Help You</h2>
+                    <p>Get in touch for a free consultation and quote. We're here to answer your questions.</p>
                     
-                    <div class="contact-details">
+                    <div class="contact-list">
                         <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Address</span>
-                                <span class="contact-value">5082 SW 164th AVE<br>Miramar, FL 33027</span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <span>5082 SW 164th AVE<br>Miramar, FL 33027</span>
                             </div>
                         </div>
-                        
                         <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Phone</span>
-                                <a href="tel:+17864453017" class="contact-value">786-445-3017</a>
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:+17864453017">786-445-3017</a>
                             </div>
                         </div>
-                        
                         <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Email</span>
-                                <a href="mailto:redpowerelectric2@gmail.com" class="contact-value">redpowerelectric2@gmail.com</a>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:redpowerelectric2@gmail.com">redpowerelectric2@gmail.com</a>
                             </div>
                         </div>
-                        
                         <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div class="contact-text">
-                                <span class="contact-label">Hours</span>
-                                <span class="contact-value">Mon-Fri: 8AM - 6PM<br>24/7 Emergency</span>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon-Fri: 8AM - 6PM<br>24/7 Emergency</span>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/red_power_electric" target="_blank" class="social-link" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
                     </div>
                 </div>
                 
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <h3>Request a Free Quote</h3>
-                        <p class="form-description">Fill out the form below and we'll get back to you within 24 hours.</p>
-                        
+                <div class="cta-form">
+                    <h3>Request Free Quote</h3>
+                    <form id="quoteForm">
                         <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required placeholder="Your name">
+                            <input type="text" placeholder="Your Name *" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            <input type="email" placeholder="Email *" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="phone">Phone *</label>
-                            <input type="tel" id="phone" name="phone" required placeholder="(555) 555-5555">
+                            <input type="tel" placeholder="Phone *" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="service">Service Type</label>
-                            <select id="service" name="service">
-                                <option value="">Select a service</option>
-                                <option value="installation">Electrical Installation</option>
-                                <option value="repair">Electrical Repair</option>
+                            <select>
+                                <option value="">Select Service</option>
+                                <option value="installation">Installation</option>
+                                <option value="repair">Repair</option>
                                 <option value="panel">Panel Upgrade</option>
                                 <option value="lighting">Lighting</option>
-                                <option value="residential">Residential</option>
-                                <option value="commercial">Commercial</option>
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="message">Tell Us About Your Project</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Describe your project or electrical issue..."></textarea>
+                            <textarea placeholder="Tell us about your project..." rows="4"></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary btn-full">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Request
-                        </button>
+                        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Request</button>
                     </form>
                 </div>
             </div>
@@ -574,86 +274,52 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="#home" class="logo">
+                    <a href="#" class="logo">
                         <span class="logo-icon"><i class="fas fa-bolt"></i></span>
-                        <span class="logo-text">Red<span>Power</span> Electric</span>
+                        <span class="logo-text">Red<span>Power</span></span>
                     </a>
-                    <p class="footer-description">
-                        Your trusted family-owned electrical company in Florida. 
-                        Licensed, insured, and committed to quality since 2014.
-                    </p>
+                    <p>Your trusted family-owned electrical company in Florida. Licensed, insured, and committed to quality since 2014.</p>
                     <div class="footer-badges">
-                        <span><i class="fas fa-check-circle"></i> Licensed</span>
-                        <span><i class="fas fa-check-circle"></i> Insured</span>
+                        <span><i class="fas fa-check"></i> Licensed</span>
+                        <span><i class="fas fa-check"></i> Insured</span>
                     </div>
                 </div>
                 
                 <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-column">
+                    <div class="footer-col">
                         <h4>Services</h4>
-                        <ul>
-                            <li><a href="#services">Installations</a></li>
-                            <li><a href="#services">Repairs</a></li>
-                            <li><a href="#services">Panel Upgrades</a></li>
-                            <li><a href="#services">Lighting</a></li>
-                            <li><a href="#services">Emergency</a></li>
-                        </ul>
+                        <a href="#services">Installations</a>
+                        <a href="#services">Repairs</a>
+                        <a href="#services">Panel Upgrades</a>
+                        <a href="#services">Lighting</a>
+                        <a href="#services">Emergency</a>
                     </div>
-                    
-                    <div class="footer-column">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#contact">Contact</a>
+                        <a href="tel:+17864453017">Call Now</a>
+                    </div>
+                    <div class="footer-col">
                         <h4>Contact</h4>
-                        <ul>
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                5082 SW 164th AVE<br>Miramar, FL 33027
-                            </li>
-                            <li>
-                                <i class="fas fa-phone-alt"></i>
-                                <a href="tel:+17864453017">786-445-3017</a>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <a href="mailto:redpowerelectric2@gmail.com">redpowerelectric2@gmail.com</a>
-                            </li>
-                        </ul>
+                        <p><i class="fas fa-map-marker-alt"></i> Miramar, FL</p>
+                        <p><i class="fas fa-phone-alt"></i> 786-445-3017</p>
+                        <p><i class="fas fa-envelope"></i> redpowerelectric2@gmail.com</p>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <div class="footer-social">
-                    <a href="https://www.instagram.com/red_power_electric" target="_blank" aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-                <p class="footer-copyright">
-                    &copy; 2024 Red Power Electric. All rights reserved.
-                </p>
-                <p class="footer-designed">
-                    <i class="fas fa-heart"></i> Serving Florida since 2014
-                </p>
+                <p>&copy; 2024 Red Power Electric. All rights reserved.</p>
+                <p>Serving Florida since 2014</p>
             </div>
         </div>
     </footer>
 
-    <!-- Floating Contact Button -->
-    <a href="tel:+17864453017" class="floating-btn" aria-label="Call Now">
-        <i class="fas fa-phone-alt"></i>
-    </a>
+    <a href="tel:+17864453017" class="floating-btn"><i class="fas fa-phone-alt"></i></a>
 
     <script src="scripts.js"></script>
 </body>
