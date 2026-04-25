@@ -63,8 +63,9 @@ img {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #1a1a1a;
-    box-shadow: var(--shadow);
+    background: #333333;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-bottom: 3px solid #E53935;
 }
 
 .header-container {
@@ -87,7 +88,6 @@ img {
     height: 50px;
     border-radius: 8px;
     object-fit: contain;
-    background: #ffffff;
 }
 
 .logo-icon {
