@@ -87,6 +87,7 @@ img {
     height: 50px;
     border-radius: 8px;
     object-fit: contain;
+    background: #ffffff;
 }
 
 .logo-icon {
@@ -132,13 +133,13 @@ img {
 
 .nav a {
     font-weight: 500;
-    color: #cccccc;
+    color: #ffffff;
     transition: var(--transition);
     position: relative;
 }
 
 .nav a:hover {
-    color: var(--primary);
+    color: #E53935;
 }
 
 .nav a::after {
@@ -166,12 +167,12 @@ img {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #E53935;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .phone-link:hover {
-    color: #ffffff;
+    color: #E53935;
 }
 
 .phone-link i {
