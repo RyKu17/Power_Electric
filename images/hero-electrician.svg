@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="worker" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623"/>
+      <stop offset="100%" style="stop-color:#f5d365"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="580" rx="350" ry="40" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="280" cy="250" r="80" fill="url(#worker)"/>
+  <rect x="240" y="320" width="80" height="160" rx="10" fill="#e53935"/>
+  <rect x="330" y="380" width="100" height="80" rx="5" fill="#333"/>
+  <rect x="440" y="340" width="60" height="120" rx="10" fill="#e53935"/>
+  <rect x="260" y="420" width="120" height="10" rx="2" fill="#f5a623"/>
+  <rect x="260" y="450" width="120" height="10" rx="2" fill="#f5a623"/>
+  <rect x="260" y="480" width="120" height="10" rx="2" fill="#f5a623"/>
+  <circle cx="280" cy="180" r="8" fill="#fff" opacity="0.8"/>
+  <circle cx="310" cy="175" r="6" fill="#fff" opacity="0.6"/>
+  <circle cx="340" cy="185" r="10" fill="#fff" opacity="0.7"/>
+  <polygon points="550,350 600,280 650,350" fill="none" stroke="#f5a623" stroke-width="8"/>
+  <polygon points="560,350 600,290 640,350" fill="#1a1a2e" stroke="#f5a623" stroke-width="3"/>
+  <line x1="550" y1="350" x2="520" y2="450" stroke="#f5a623" stroke-width="6"/>
+  <line x1="650" y1="350" x2="680" y2="450" stroke="#f5a623" stroke-width="6"/>
+  <polygon points="520,450 520,550 600,580 680,550 680,450" fill="#444" stroke="#f5a623" stroke-width="3"/>
+  <rect x="200" y="180" width="40" height="80" rx="5" fill="#f5a623"/>
+  <rect x="520" y="200" width="60" height="100" rx="5" fill="#333"/>
+  <rect x="530" y="210" width="40" height="80" rx="2" fill="#e53935"/>
+  <path d="M600 100 L650 150" stroke="#f5a623" stroke-width="3" stroke-dasharray="10,5"/>
+  <path d="M640 100 L690 150" stroke="#f5a623" stroke-width="3" stroke-dasharray="10,5"/>
+  <circle cx="700" cy="120" r="30" fill="#f5a623" opacity="0.9"/>
+  <circle cx="700" cy="120" r="20" fill="#fff" opacity="0.3"/>
+</svg>

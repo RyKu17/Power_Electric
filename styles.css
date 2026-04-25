@@ -228,6 +228,16 @@ img {
     overflow: hidden;
 }
 
+.hero-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .hero-bg {
     position: absolute;
     inset: 0;
@@ -249,9 +259,27 @@ img {
 .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
+    text-align: left;
+}
+
+.hero-right {
+    position: relative;
+    perspective: 1000px;
+}
+
+.hero-image-3d {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 30px;
+    box-shadow: 
+        20px 20px 60px rgba(0,0,0,0.5),
+        -10px -10px 30px rgba(255,255,255,0.1);
+    transform: rotateY(-5deg) rotateX(5deg);
+    transition: transform 0.5s ease;
+}
+
+.hero-image-3d:hover {
+    transform: rotateY(0deg) rotateX(0deg);
 }
 
 .hero-badge {
@@ -293,14 +321,12 @@ img {
     color: rgba(255,255,255,0.8);
     margin-bottom: 35px;
     max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-btns {
     display: flex;
     gap: 15px;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 50px;
     flex-wrap: wrap;
 }
@@ -342,8 +368,8 @@ img {
 
 .hero-stats {
     display: flex;
-    justify-content: center;
     gap: 60px;
+    justify-content: flex-start;
 }
 
 .stat {
@@ -368,8 +394,12 @@ img {
    Section Header
    ================================================ */
 .section-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
+}
+
+.section-header.centered {
+    text-align: center;
 }
 
 .tag {
@@ -416,11 +446,25 @@ img {
 .service-card {
     background: var(--white);
     padding: 30px;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
+    border-radius: 20px;
+    box-shadow: 
+        0 10px 30px rgba(0,0,0,0.15),
+        0 1px 3px rgba(0,0,0,0.1);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.service-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary), #ff6b6b);
 }
 
 .service-img {
