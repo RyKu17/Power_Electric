@@ -28,11 +28,13 @@ html {
 }
 
 body {
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-family: var(--font);
+    background: var(--light);
     color: var(--dark);
-    background: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+    hyphens: none;
+    word-wrap: break-word;
 }
 
 a {
@@ -272,12 +274,12 @@ img {
 
 .hero-image-3d {
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     border-radius: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
     box-shadow: 
-        20px 20px 60px rgba(0,0,0,0.5),
-        -10px -10px 30px rgba(255,255,255,0.1);
+        15px 15px 50px rgba(0,0,0,0.5),
+        -8px -8px 25px rgba(255,255,255,0.1);
     transform: rotateY(-5deg) rotateX(5deg);
     transition: transform 0.5s ease;
 }
