@@ -6,5 +6,6 @@
     </linearGradient>
   </defs>
   <circle cx="100" cy="100" r="95" fill="url(#grad)"/>
-  <text x="100" y="135" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="80" font-weight="bold" fill="white">RPE</text>
+  <text x="100" y="130" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="70" font-weight="bold" fill="white">RPE</text>
+  <path d="M100 35 L100 50 M85 55 L100 70 L115 55 M100 75 L100 90" stroke="white" stroke-width="8" stroke-linecap="round" fill="none"/>
 </svg>
