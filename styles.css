@@ -272,8 +272,9 @@ img {
 
 .hero-image-3d {
     width: 100%;
-    max-width: 600px;
+    max-width: 450px;
     border-radius: 30px;
+    margin-right: 20px;
     box-shadow: 
         20px 20px 60px rgba(0,0,0,0.5),
         -10px -10px 30px rgba(255,255,255,0.1);
@@ -312,6 +313,9 @@ img {
     color: var(--white);
     line-height: 1.1;
     margin-bottom: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: manual;
 }
 
 .hero-title .highlight {
@@ -940,7 +944,10 @@ img {
     }
     
     .hero-title {
-        font-size: 40px;
+        font-size: 32px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: manual;
     }
 
     .hero-stats {
