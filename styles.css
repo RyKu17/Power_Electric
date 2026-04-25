@@ -82,6 +82,12 @@ img {
     gap: 10px;
 }
 
+.logo-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
 .logo-icon {
     width: 45px;
     height: 45px;
@@ -358,12 +364,18 @@ img {
 
 .service-card {
     background: var(--white);
-    padding: 35px;
+    padding: 30px;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+}
+
+.service-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
 }
 
 .service-card::before {
