@@ -233,11 +233,31 @@ img {
 .hero-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
+}
+
+.hero-right {
+    position: relative;
+    perspective: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.hero-image-3d {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 25px;
+    box-shadow: 
+        12px 12px 40px rgba(0,0,0,0.5),
+        -6px -6px 20px rgba(255,255,255,0.1);
+    transform: rotateY(-5deg) rotateX(5deg);
+    transition: transform 0.5s ease;
 }
 
 .hero-bg {
